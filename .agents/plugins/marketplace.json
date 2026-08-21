@@ -1,0 +1,44 @@
+{
+  "name": "codex-dev-workflow",
+  "interface": {
+    "displayName": "Codex Dev Workflow"
+  },
+  "plugins": [
+    {
+      "name": "forge-prd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/forge-prd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "dev-flow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dev-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "dev-flow-lite",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dev-flow-lite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

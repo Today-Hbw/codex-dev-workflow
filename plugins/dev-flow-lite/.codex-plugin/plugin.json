@@ -1,0 +1,18 @@
+{
+  "name": "dev-flow-lite",
+  "version": "0.1.0",
+  "description": "A lean four-step workflow for small development tasks.",
+  "author": {
+    "name": "Today-Hbw"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dev Flow Lite",
+    "shortDescription": "Quickly align, implement, and review small changes.",
+    "longDescription": "A concise workflow for reading a PRD, resolving ambiguity, implementing vertical slices, and reviewing the result.",
+    "developerName": "Today-Hbw",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": ["Run the lightweight dev-flow for this task."]
+  }
+}

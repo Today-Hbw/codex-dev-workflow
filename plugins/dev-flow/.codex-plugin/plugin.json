@@ -1,0 +1,18 @@
+{
+  "name": "dev-flow",
+  "version": "0.1.0",
+  "description": "A disciplined eight-step workflow from PRD through delivery.",
+  "author": {
+    "name": "Today-Hbw"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dev Flow",
+    "shortDescription": "Take a PRD through an eight-step delivery workflow.",
+    "longDescription": "Read, align, plan, implement, test, review, and summarize work with resumable progress records.",
+    "developerName": "Today-Hbw",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": ["Run the full dev-flow workflow for this PRD."]
+  }
+}

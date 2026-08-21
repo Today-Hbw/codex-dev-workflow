@@ -1,0 +1,18 @@
+{
+  "name": "forge-prd",
+  "version": "0.1.0",
+  "description": "Turn rough materials into a build-ready PRD through structured questioning.",
+  "author": {
+    "name": "Today-Hbw"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Forge Prd",
+    "shortDescription": "Forge rough ideas into build-ready PRDs.",
+    "longDescription": "Reads ideas and source materials, confirms understanding, challenges ambiguity and boundaries, then writes a clear PRD.",
+    "developerName": "Today-Hbw",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": ["Help me forge this rough idea into a PRD."]
+  }
+}
